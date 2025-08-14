@@ -19,7 +19,7 @@ var config = {
     title: 'Dolgu Önerisi ve Bağlantılı Bulvar / Land Reclamation Proposal and Connected Boulevard',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -119,10 +119,10 @@ var config = {
             image: 'https://i.ibb.co/bjhVwCt3/d2.png',
             description: '',
             location: {
-                center: [28.9538260138592,41.00336068342606],
-                zoom: 15,
-                pitch: 40,
-                bearing: -5,
+                center: [28.982336716189497,41.00179192290099],
+                zoom: 13.5,
+                pitch: 0,
+                bearing: 0,
                 speed: 1,
                 curve: 2
                 // flyTo additional controls-
@@ -133,7 +133,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
