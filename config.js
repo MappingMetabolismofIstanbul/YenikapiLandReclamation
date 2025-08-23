@@ -65,7 +65,7 @@ var config = {
                 bearing: 6
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [
                 // {
